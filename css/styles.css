@@ -1,0 +1,124 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #246A6E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #246A6E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #246A6E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #90C3C6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.top-container {
+  background-color: #50b6bb;
+  position: relative;
+  padding: 100px 0 0 0;
+  line-height: 1.5;
+}
+
+.middle-container {
+  background-color: white;
+  position: relative;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  margin: 10px auto 40px;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #50B5BA;
+  padding: 20px 0 20px;
+  color: #246A6E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 3px 5px #b3b3b3;
+  -moz-box-shadow: 0 3px 5px #b3b3b3;
+  box-shadow: 0 3px 5px #b3b3b3;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #50B5BA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.game {
+  border-radius: 15%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.robot {
+  border-radius: 15%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
