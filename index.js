@@ -1,5 +1,5 @@
 let i = 0;
-const txt = "Engineer. Problem Solver. Programmer."; /* The text */
+const txt = "Engineer. Problem Solver. Developer."; /* The text */
 const speed = 100; /* The speed/duration of the effect in milliseconds */
 const pauseDuration = 5000; /* Duration of the pause in milliseconds */
 
