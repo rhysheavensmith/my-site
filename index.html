@@ -1,56 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>My Site</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Rhys.</h1>
-    <h2>Entrepreneur. Engineer. <span class="pro">Pro</span>grammer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="devMan" src="images/dev.gif" height="255.552" width="340.725" alt="devman-img">
-      <h2>Hello.</h2>
-      <p class="intro">It's nice to meet you! My name is Rhys, i'm an ex sailor, startup founder and now - junior web developer. I have a keen passion for pushing myself, growing professionally and finding out just what i am capable of! Find out more about me below.</p>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Rhys.</h1>
+      <h2 id="typewriter"></h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img id="mountain" src="images/mountain.png" alt="mountain-img" />
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="game" src="images/game.gif" alt="game-gif">
-        <h3>Creating Rad Technology</h3>
-        <p>2017 saw me launch my first ever tech startup! noc noc is a mobile app that connects you to local businesses.</p>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="devMan"
+          src="images/dev.gif"
+          height="255.552"
+          width="340.725"
+          alt="devman-img"
+        />
+        <h2>Meet Rhys, sailor turned techie.</h2>
+        <p class="intro">
+          With ten incredible years in the Royal New Zealand Navy, Rhys ascended
+          to the esteemed rank of Petty Officer as a Propulsion Engineer. His
+          skills were recognized, he topped his leadership courses while also
+          being awarded the distinction of Sailor of the Quarter. The capstone
+          of his naval career? Serving as an instructor for the Marine
+          Engineering School, mentoring the next wave of talent. <br /><br />
+
+          Eager to explore new horizons, Rhys then leaped into the world of tech
+          startups. As a non-technical founder, he navigated the tech seas,
+          leading a team of contract developers in an agile environment. His
+          startup quickly gained traction, attracting 5000 users and an advisory
+          board member from Xero's founding team! <br /><br />
+
+          Rhys's tech journey didn't stop there. He plunged into the world of
+          coding, spending nine months as a junior Salesforce developer with an
+          Auckland company - Sleeq. Working with Salesforce's proprietary
+          languages, along with JavaScript and Python, Rhys became an
+          indispensable asset to his team. <br />
+          <br />
+
+          Now, with approximately four years of experience as a self-employed
+          contract mechanical engineer, Rhys stands at the intersection of
+          engineering and tech. Armed with resilience, adaptability, and a
+          relentless pursuit of growth, he's ready to conquer his next
+          challenge. You're not just hiring a developer; you're bringing aboard
+          a seasoned sailor, trained to weather any storm and keep the ship
+          sailing smoothly. Discover what he is capable of below!
+        </p>
       </div>
-      <div class="skill-row">
-        <img class="robot" src="images/robot.gif" alt="robot-gif">
-        <h3>Mechanical Engineering</h3>
-        <p>After 10 years with the RNZN, I left as a qualified engineer! Now i'm working as a shift fitter at Frucor Suntory.</p>
+      <hr />
+      <div class="skills">
+        <h2>More than skills. My talent toolbox.</h2>
+        <div class="skill-row">
+          <img class="game" src="images/game.gif" alt="game-gif" />
+          <h3>Game On: Building Tech With Impact</h3>
+          <p>
+            Life isn't all fun and games, but why shouldn't it be? In 2017, I
+            embarked on my biggest adventure yet and launched my first tech
+            startup, noc noc. Not just another game in the arcade, noc noc
+            became a platform connecting users to local businesses. And, just
+            like an arcade game, the high score kept climbing, reaching 5000
+            users and attracting a board advisor from Xero. Game on!
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="robot" src="images/robot.gif" alt="robot-gif" />
+          <h3>Engineered For Success</h3>
+          <p>
+            If life is a machine, then I'm the mechanic, always ready with the
+            right tool for the job. My decade-long journey with the RNZN saw me
+            growing from a novice sailor to a qualified engineer and an
+            instructor for the Marine Engineering School. I've tackled big
+            challenges, solved complex problems, and engineered solutions that
+            keep everything running smoothly, just like our little robot friend
+            here. Mechanically minded, I'm prepared for any challenge the tech
+            world throws at me.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you want to work on a project together.</h3>
+        <p class="contact-message">Hit the button if you want to chat!</p>
+        <a class="btn" href="mailto:rhys@nocnoc.co.nz">contact me</a>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you want to work on a project together.</h3>
-      <p class="contact-message">Hit the button if you want to chat!</p>
-      <a class="btn" href="mailto:rhys@nocnoc.co.nz">contact me</a>
+
+    <div class="bottom-container">
+      <p>© 2023 Rhys Heaven-Smith</p>
     </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <p>© 2018 Rhys Heaven-Smith @ noc noc ltd</p>
-  </div>
-
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>

@@ -2,26 +2,26 @@ body {
   color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
-  color: #246A6E;
+  color: #246a6e;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color: #246A6E;
+  color: #246a6e;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #246A6E;
+  font-family: "Montserrat", sans-serif;
+  color: #246a6e;
 }
 
 p {
@@ -29,19 +29,28 @@ p {
 }
 
 hr {
-  border: dotted #90C3C6 6px;
+  border: dotted #90c3c6 6px;
   border-bottom: none;
   width: 5%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-
 .top-container {
   background-color: #50b6bb;
   position: relative;
   padding: 100px 0 0 0;
   line-height: 1.5;
+  height: 100vh;
+  overflow: auto;
+}
+
+#mountain {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: calc(100vh - 20px);
 }
 
 .middle-container {
@@ -49,13 +58,11 @@ hr {
   position: relative;
 }
 
-
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
-
 
 .pro {
   text-decoration: underline;
@@ -64,6 +71,7 @@ hr {
 .intro {
   width: 50%;
   margin: auto;
+  text-align: left;
 }
 
 .contact-message {
@@ -72,10 +80,10 @@ hr {
 
 .bottom-container {
   margin-top: 100px;
-  background-color: #50B5BA;
+  background-color: #50b5ba;
   padding: 20px 0 20px;
-  color: #246A6E;
-  font-family: 'Montserrat', sans-serif;
+  color: #246a6e;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn {
@@ -88,7 +96,7 @@ hr {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #50B5BA;
+  background: #50b5ba;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -107,6 +115,12 @@ hr {
   position: absolute;
   left: 250px;
   bottom: 300px;
+}
+
+@media (max-width: 768px) {
+  .bottom-cloud {
+    display: none;
+  }
 }
 
 .game {
